@@ -1,0 +1,12 @@
+/**
+ * Note that the previous method was 
+ * to import the parent theme stylesheet using @import: this is no longer best practice,
+ * as it increases the amount of time it takes style sheets to load.
+ * 
+ * See details: https://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme
+ * 
+ * So, don't do that anymore: 
+ */
+/* @import url("../chiropractor/rtl.css"); don't do that! */
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/

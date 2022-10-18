@@ -1,0 +1,92 @@
+/*
+Theme Name: Chiropractor Child Theme
+Theme URI: http://webdesign-finder.com/chiropractor
+Template: chiropractor
+Author: MWTemplates
+Author URI: http://modernwebtemplates.com/
+Description: Chiropractor - premium WordPress theme for chiropractor, massage, manual therapist and rehabilitation.
+Tags: Custom-Header, Left-Sidebar, Right-Sidebar, Post-Formats, Rtl-Language-Support, Theme-Options, Editor-Style, Sticky-Post, Portfolio
+Version: 1.1
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Text Domain: chiropractor-child
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/**
+ * Note that the previous method was 
+ * to import the parent theme stylesheet using @import: this is no longer best practice,
+ * as it increases the amount of time it takes style sheets to load.
+ * 
+ * See details: https://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme
+ * 
+ * So, don't do that anymore: 
+ */
+/* @import url("../chiropractor/style.css"); don't do that! */
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+.custom-footer{ padding: 40px 0; background: #22314d;}
+.custom-footer ul{ float: none; margin: 0 auto; text-align: center;}
+.custom-footer ul li{ float: none; text-align: center; display: inline-block;}
+.custom-footer h4,
+.custom-footer h5,
+.custom-footer h6{ color: #fff; text-align: center;} 
+.custom-footer .custom-logo{ text-align: center; margin: 0 auto;}
+.custom-footer .custom-logo img{ margin-bottom: 15px;}
+.custom-footer .social-navigation.type-2 li, .custom-footer .share-icons.type-2 li {
+	float: none;
+	font-size: 20px;
+}
+.main-logo-f{ text-align: center;}
+.custom-anchor:hover, .custom-f5 a:hover{ color: #fff !important;}
+.footer.offices-on-top{ display: none !important;}
+.footer{ display: none !important;}
+.office.relwraper{ display: none !important;}
+.widget_services_carousel .owl-carousel .owl-item img{ width: 300px; height: 300px; margin: 0 auto;}
+.widget_services_carousel .w{ width: 300px; height: 300px; position: absolute; left: 50%; margin-left: -150px;}
+.head-menu-left-inner .menu-title-inner .blogdescr{ display: none !important;}
+#menu-strip .logo{
+	text-align: center;
+    max-height: 70px;
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 50px; */
+    margin-left: 117px;
+}
+.sticky-wrapper.is-sticky #menu-strip .logo{ max-height: 70px; }
+.mobile-menu option:first-child{
+	display: none !important;
+}
+.custom-title a, .custom-f5 a{ color: rgb(121, 123, 127);}
+.home #menu-strip .logo{
+	text-align: center;
+    max-height: 110px;
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 50px; */
+    margin-left: 117px;
+}
+.home .sticky-wrapper.is-sticky #menu-strip .logo{ max-height: 70px; }
+
+.page-id-3843 .fw-col-xs-12.fw-col-sm-6{
+    padding: 15px !important;
+    min-height: 150px !important;
+-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+margin-bottom: 20px;
+width: 46%;
+margin-right: 20px;
+}
+.page-id-3843 .fw-col-xs-12.fw-col-sm-4{
+    padding: 15px !important;
+    min-height: 150px !important;
+-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+margin-bottom: 20px;
+min-height: 238px !important;
+margin-right: 20px;
+    width: 30%;
+}

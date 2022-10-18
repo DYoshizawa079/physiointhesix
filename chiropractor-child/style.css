@@ -1,0 +1,159 @@
+/*
+Theme Name: Chiropractor Child Theme
+Theme URI: http://webdesign-finder.com/chiropractor
+Template: chiropractor
+Author: MWTemplates
+Author URI: http://modernwebtemplates.com/
+Description: Chiropractor - premium WordPress theme for chiropractor, massage, manual therapist and rehabilitation.
+Tags: Custom-Header,Left-Sidebar,Right-Sidebar,Post-Formats,Rtl-Language-Support,Theme-Options,Editor-Style,Sticky-Post,Portfolio
+Version: 1.1.1571847649
+Updated: 2019-10-23 16:20:49
+
+*/
+
+.footer {
+    display: none !important;
+}
+.footer.offices-on-top {
+    display: none !important;
+}
+.custom-footer {
+    background-color: #22314d;
+    padding: 40px 0;
+}
+.custom-footer ul {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+.custom-footer ul li {
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+.custom-footer h4, .custom-footer h5, .custom-footer h6 {
+    text-align: center;
+    color: #fff;
+}
+.custom-footer .custom-logo {
+    text-align: center;
+    margin: 0 auto;
+}
+.custom-footer .custom-logo img {
+    margin-bottom: 15px;
+}
+.custom-footer .social-navigation.type-2 li, .custom-footer .share-icons.type-2 li {
+    font-size: 20px;
+    float: none;
+}
+.main-logo-f {
+    text-align: center;
+}
+.custom-anchor:hover, .custom-f5 a:hover {
+    color: #fff !important;
+}
+.office.relwraper {
+    display: none !important;
+}
+.widget_services_carousel .owl-carousel .owl-item img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.widget_services_carousel .w {
+    left: 50%;
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    margin-left: -150px;
+}
+.head-menu-left-inner .menu-title-inner .blogdescr {
+    display: none !important;
+}
+#menu-strip .logo {
+    text-align: center;
+    margin-left: 117px;
+    max-height: 70px;
+}
+.sticky-wrapper.is-sticky #menu-strip .logo {
+    max-height: 70px;
+}
+.mobile-menu option:first-child {
+    display: none !important;
+}
+.custom-title a, .custom-f5 a {
+    color: rgb(121, 123, 127);
+}
+.home #menu-strip .logo {
+    text-align: center;
+    margin-left: 117px;
+    max-height: 110px;
+}
+.home .sticky-wrapper.is-sticky #menu-strip .logo {
+    max-height: 70px;
+}
+.page-id-3843 .fw-col-xs-12.fw-col-sm-6,
+.page-id-5084 .fw-col-xs-12.fw-col-sm-6 {
+    width: 46%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    min-height: 150px !important;
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    -o-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    padding: 15px !important;
+}
+.page-id-3843 .fw-col-xs-12.fw-col-sm-4,
+.page-id-5084 .fw-col-xs-12.fw-col-sm-4 {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    min-height: 150px !important;
+    min-height: 238px !important;
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    -o-box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.12);
+    padding: 15px !important;
+}
+
+.logo-bar .phone.pull-right a {
+    display: block;
+    height: 40px;
+    clear: both;
+}
+.logo-bar .phone.pull-right a, .logo-bar .phone.pull-right a span {
+  font-size:20px;
+}
+.logo-bar .phone.pull-right button {
+  position: static;
+  display: block;
+  height: 40px;
+  transform: none;
+}
+.logo-bar .phone.pull-right button:hover {
+  border:none !important;
+}
+.fw-accordion-title.ui-accordion-header {
+    font-size: 1.8rem;
+    background-color: #eee;
+}
+
+@media screen and (min-width: 77.5em) {
+    .head-menu-left-inner {
+        width: 300px;
+    }
+    .main-nav {
+        padding: 0 270px 0 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .head-menu-left-inner {
+        width: 300px;
+    }
+    .main-nav {
+        padding: 0 270px 0 300px;
+    }
+} 

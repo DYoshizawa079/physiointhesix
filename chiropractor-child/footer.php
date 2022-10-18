@@ -17,15 +17,6 @@
 
 </div><!-- .site --><?php
 
-// if( chiropractor_is_site_boxed() ){ echo '<div class="boxed boxed-footer">'; }
-
-// if ( is_home() ) {
-//     do_action( 'chiropractor_blog_before_footer' );
-// }
-
-// if ( is_front_page() ) {
-// 	do_action( 'chiropractor_before_footer' );
-// }
 ?>
 <div class="custom-footer">
     <div class="container">
@@ -38,9 +29,10 @@
                     <li id="menu-item-3415" class="fa fa-instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-3415"><a target="_blank" href="https://www.instagram.com/physiointhesix/"><span class="screen-reader-text">Instagram</span></a></li>
                 </ul>
                 <div class="main-logo-f">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/award.png" alt="">
-					 
-
+                    <div class="logos">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/award.png" alt="OpenCare Award">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Top-choice-award-2022.png" alt="Top Choice Award 2022" style="height: 136px;padding-left: 10px;">
+                    </div> 
 
                     <h4 class="custom-title">
                         We offer late nights and weekend appointments<br>
